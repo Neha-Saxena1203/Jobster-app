@@ -11,7 +11,7 @@ const SharedLayout = () => {
   return (
     <Wrapper>
       <main className={`${isSideBarOpen ? "dashboard" : "dashboard1"}`}>
-        {/* {isSideBarOpen && <SmallSideBar />} */}
+        {isSideBarOpen && <SmallSideBar />}
         {isSideBarOpen && <BigSideBar />}
 
         <div>
